@@ -3,11 +3,15 @@ body{
     background-color: rgb(9, 18, 34);
     color: white;
 }
+#top{
+    text-align: center;
+margin-bottom:20px;
+}
 main{
     display: grid;
     width: 80%;
     height: auto;
-    grid-template-columns: repeat(4,auto);
+    grid-template-columns: repeat(4,20%);
     margin: auto;
     column-gap: 20px;
     row-gap: 20px;
@@ -25,9 +29,7 @@ main{
     align-items: center;
     justify-content: center;
 }
-#top{
-    text-align: center;
-}
+
 /* .sec:hover{
     transform: rotateY(0deg);
     color: black;
